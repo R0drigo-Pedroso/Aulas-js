@@ -1,0 +1,12 @@
+img { max-width: 100%; }
+.destaque { 
+    background-color: yellow;
+    color: red; font-weight: bold;
+    border: solid 1px;
+    padding: 2px;
+}
+
+.modo-noturno {
+    background-color: black;
+    color: white;
+}
