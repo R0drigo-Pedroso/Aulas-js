@@ -68,6 +68,12 @@ formulario.addEventListener('submit', function(event){
 
     // Montagem do resumo do aluno
     montaResumo(nome, media, situacao);
+
+    //limpando os campos
+    formulario.reset();
+
+    // focando no campo nome depois de preenchido
+    campoNome.focus();
 });
 
     // calculando a media do aluno 
