@@ -19,7 +19,7 @@ let numeroEscolhido = parseInt(Math.random() * 11);
         
     }else if (palpiteUsuario < numeroEscolhido) { 
         resultado.innerHTML = 'Você errou! O numero é menor';
-        
+
     } else if (palpiteUsuario > numeroEscolhido){
         resultado.innerHTML = 'Você errou! O numero é maior';
     
@@ -27,6 +27,4 @@ let numeroEscolhido = parseInt(Math.random() * 11);
     }else if (palpiteUsuario < 0 || palpiteUsuario > 10) {
                 resultado.innerHTML = 'Digite um numero entre 0 e 10';
     }
-
-
 });
