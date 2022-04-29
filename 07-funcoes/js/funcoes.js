@@ -93,6 +93,11 @@ document.write('-----------')
 document.write("<br>");
 document.write(transformaMoeda(precoAtual));
     document.write("<br>");
+
+
+
+
+    
 console.log('//------------------------------------------------');
 // exemplo - Arrow
 let transformaMoedaB = valor => valor.toLocaleString('en', {
