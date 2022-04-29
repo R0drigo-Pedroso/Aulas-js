@@ -8,17 +8,26 @@
 </head>
  <body>   
 
-    <h2 id="nome"></h2>
+    <label for="nome"> Nome: </label>
+    <input type="text" id="nome"> 
+    <input type="submit" onClick="clique()">
+                            <!-- onclick - e quando o usuario fazer a acão de clicar no botão -->
+    <h2 id="validacao"></h2>
 
 
 <script>
-    nome = prompt("Seu nome");
-   
+        //variavel se refere a variavel
+    let nome = document.getElementById("nome") 
+                                    // campo digitado pelo usuario (guardando valor) 
+    
+    let validacao = document.getElementById("validacao")
+                                          // o valor digitado pelo usuario e guardado na variavel "validacao"
 
+    // acão ao clicar no botão
+    function clique() {
+        validacao.textContent = "Olá, " + nome.value; 
+    }
 
-
-
-  
 </script>
 
 </body>
