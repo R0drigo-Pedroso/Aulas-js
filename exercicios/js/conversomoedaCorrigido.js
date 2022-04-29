@@ -65,5 +65,4 @@ formulario.addEventListener('submit', function(event) {
     // imprimir o resultado
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `O valor em real é ${calculo}`;
-    
 })
