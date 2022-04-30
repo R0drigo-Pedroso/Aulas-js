@@ -17,10 +17,10 @@ let numeroEscolhido = parseInt(Math.random() * 11);
     if (palpiteUsuario == numeroEscolhido) {
         resultado.innerHTML = 'Parabéns! Você acertou!';
         
-    }else if (palpiteUsuario < numeroEscolhido) { 
+    }else if (palpiteUsuario > numeroEscolhido) { 
         resultado.innerHTML = 'Você errou! O numero é menor';
 
-    } else if (palpiteUsuario > numeroEscolhido){
+    } else if (palpiteUsuario < numeroEscolhido){
         resultado.innerHTML = 'Você errou! O numero é maior';
     
         //apostando para o usuario a quantidade de palpites que ele pode fazer
