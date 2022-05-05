@@ -1,5 +1,5 @@
 /* ============== Solução 01 ==============*/
-/* 
+
 function converterDolar () {
     let valorDolar = document.getElementById('valorDolar').value;
         //valorDolar - é o nome que posso dar como variavel
@@ -14,7 +14,7 @@ function converterDolar () {
     // mudar a cor do resultado do html
     resultado.style.color = 'red';
 
-}*/
+}
 
 /* ============== Solução 02 ==============
 
@@ -44,7 +44,7 @@ function converterDolar () {
 
 
 /* ============== Solução 03 ==============*/
-
+/*
 let formulario = document.querySelector('form');
 
 formulario.addEventListener('submit', function(event) {
@@ -65,4 +65,4 @@ formulario.addEventListener('submit', function(event) {
     // imprimir o resultado
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `O valor em real é ${calculo}`;
-})
+})*/
